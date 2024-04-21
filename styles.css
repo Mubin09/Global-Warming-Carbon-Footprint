@@ -1,0 +1,194 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+    
+/*  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+   
+    animation: fadeIn 1.5s ease-in;
+/*     scroll-behavior: smooth; */
+}
+.div{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url("bg.jpg");
+    background-size: cover;
+}
+
+.logo img {
+    height: 40px; /* Set the height of your logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+header {
+    width:100%;
+    background-color: #000;
+    opacity: 0.5;
+    padding: 15px 0; /* Padding around the navigation bar */
+    position:fixed;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 30px; /* Spacing between navigation items */
+}
+
+/* hover effect */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: text-decoration 0.3s ease; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeIn 1s ease;
+}
+
+/*  */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background: rgba(255, 255, 255, 0.8); */
+    color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    width: 85%;
+    text-align: center;
+    /* background: linear-gradient(to right, #3498db, #2c3e50);
+    background: linear-gradient(to right, #f0f0f0, #dcdcdc, #c8c8c8, #b4b4b4); */
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0, #d0d0d0, #c0c0c0, #b0b0b0, #a0a0a0, #909090, #808080);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 1.8em;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #72837a;
+    transform: scale(1.05);
+}
+
+body {
+    cursor: url('custom-cursor.png'), auto;
+}
+
+/* Add this at the beginning of your CSS file */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.loader {
+    border: 8px solid #3498db;
+    border-top: 8px solid #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* Rotate animation */
+}
+
+
+
+.about-us {
+    padding: 40px;
+    background: #3498db; /* Blue background for contrast */
+/*     margin-top: 40px; */
+    text-align: center;
+    color: #fff; /* White text color for contrast */
+}
+
+.about-us h2 {
+    color: #fff;
+
+}
+.about-us p{
+ line-height: 2;
+  font-size: 16px;
+}
+
+
+/* Contact Section */
+.contact {
+    padding: 40px;
+    background: #e74c3c; /* Red background for contrast */
+    text-align: center;
+    color: #fff; /* White text color for contrast */
+}
+
+.contact h2 {
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}

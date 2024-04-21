@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #93c572;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  #intro,
+  #calculator,#calc-result {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url("bg.jpg"); */
+    background-size: cover;
+  }
+  
+  h1 {
+    color: #3d4645; /* Dark Green */
+  }
+  
+  p {
+    color: #5d635f; /* Light Green-Gray */
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #3d4645; /* Dark Green */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #a1baa3; /* Light Green */
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #447d4f; /* Dark Green */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #365e3b; /* Darker Green on Hover */
+  }
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #result, #choices {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #3d4645; /* Dark Green */
+  }
+  
+  #chart, #avg-chart {
+    margin-top: 20px;
+    text-align: left;
+    color: #3d4645; /* Dark Green */
+  }
+  
+  /* ... (existing CSS code) */
+  
+  .chart-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* ... (existing CSS code) */
+  
+  

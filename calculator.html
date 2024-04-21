@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Carbon Footprint Calculator</title>
+</head>
+<body>
+    <!-- Add this in the head section of your HTML -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<div id="calculator">
+  <h2>Carbon Footprint Calculator</h2>
+  <p>Discover and calculate your carbon footprint for residential purposes. Make informed decisions to reduce your environmental impact.</p>
+
+  <div class="input-container">
+    <label for="members">Number of members in family:</label>
+    <input type="number" id="members" placeholder="No. of members">
+  </div>
+
+
+  <div class="input-container">
+    <label for="electricity">Electricity Consumption per month (in kWh):</label>
+    <input type="number" id="electricity" placeholder="Enter electricity consumption">
+  </div>
+
+  <div class="input-container">
+    <label for="gas">LPG consumption per month(in kg):</label>
+    <input type="number" id="gas" placeholder="Enter natural gas consumption">
+  </div>
+
+
+    <div class="input-container">
+        <label for="fuel">Car Fuel Consumption per month (in litres):</label>
+        <input type="number" id="fuel" placeholder="Enter car fuel consumption">
+    
+        <div class="radio-group">
+            <label><input type="radio" name="fuelType" value="petrol"> Petrol</label>
+            <label><input type="radio" name="fuelType" value="diesel"> Diesel</label>
+        </div>
+    </div>
+  
+  <button onclick="calculateCarbonFootprint()">Calculate</button>
+  
+
+</div>
+<div id="calc-result">
+
+    <div id="result"></div>
+    
+    <div id="chart"></div>
+    
+    
+    <div id="chart-title" class="chart-title"></div>
+    <div id="avg-chart-title" class="chart-title"></div>
+    
+    <div id="avg-chart"></div>
+    
+    <div id="statistics"></div>
+
+    <div id="choices"></div>
+</div>
+
+<div id="intro">
+    <h1>Understanding Global Warming and Carbon Footprint</h1>
+    <p>Global warming is the long-term heating of Earth's climate system, primarily due to human activities. The release of greenhouse gases, such as carbon dioxide (CO2), contributes to the greenhouse effect, trapping heat and causing the Earth's average temperature to rise.</p>
+    
+    <p>One way to measure your impact on global warming is by calculating your carbon footprint. It represents the total amount of greenhouse gases, measured in carbon dioxide equivalents (CO2e), that you contribute to the atmosphere through activities like energy consumption, transportation, and more.</p>
+  </div>
+  
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="calculator.js"></script>
+</body>
+</html>
