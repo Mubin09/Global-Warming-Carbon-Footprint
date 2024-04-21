@@ -10,8 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    
-   
+     
     animation: fadeIn 1.5s ease-in;
 /*     scroll-behavior: smooth; */
 }
@@ -21,15 +20,15 @@ body {
 }
 
 .logo img {
-    height: 40px; /* Set the height of your logo */
-    width: auto; /* Maintain aspect ratio */
+    height: 40px;
+    width: auto; 
 }
 
 header {
     width:100%;
     background-color: #000;
     opacity: 0.5;
-    padding: 15px 0; /* Padding around the navigation bar */
+    padding: 15px 0; 
     position:fixed;
 }
 
@@ -43,7 +42,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 30px; /* Spacing between navigation items */
+    margin-right: 30px; 
 }
 
 /* hover effect */
@@ -126,7 +125,6 @@ body {
     cursor: url('custom-cursor.png'), auto;
 }
 
-/* Add this at the beginning of your CSS file */
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -154,7 +152,17 @@ body {
     animation: spin 1s linear infinite; /* Rotate animation */
 }
 
+.info,.facts{
+    padding: 40px;
+    background-color: #38aa4b;
+    text-align: center;
+    color: #fff; /* White text color for contrast */
+}
 
+.facts{
+    background-color: #f39c12;
+
+}
 
 .about-us {
     padding: 40px;

@@ -24,11 +24,11 @@ body {
   }
   
   h1 {
-    color: #3d4645; /* Dark Green */
+    color: #3d4645; 
   }
   
   p {
-    color: #5d635f; /* Light Green-Gray */
+    color: #5d635f; 
     margin-bottom: 20px;
   }
   
@@ -39,14 +39,14 @@ body {
   label {
     display: block;
     margin-bottom: 8px;
-    color: #3d4645; /* Dark Green */
+    color: #3d4645; 
   }
   
   input {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #a1baa3; /* Light Green */
+    border: 1px solid #a1baa3; 
     border-radius: 4px;
   }
   
@@ -54,7 +54,7 @@ body {
     margin-top: 20px;
     padding: 12px 20px;
     font-size: 16px;
-    background-color: #447d4f; /* Dark Green */
+    background-color: #447d4f; 
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -63,7 +63,7 @@ body {
   }
   
   button:hover {
-    background-color: #365e3b; /* Darker Green on Hover */
+    background-color: #365e3b; 
   }
 
 .radio-group {
@@ -75,16 +75,15 @@ body {
   #result, #choices {
     margin-top: 20px;
     font-weight: bold;
-    color: #3d4645; /* Dark Green */
+    color: #3d4645; 
   }
   
   #chart, #avg-chart {
     margin-top: 20px;
     text-align: left;
-    color: #3d4645; /* Dark Green */
+    color: #3d4645; 
   }
   
-  /* ... (existing CSS code) */
   
   .chart-title {
     margin-top: 10px;
@@ -92,6 +91,5 @@ body {
     font-weight: bold;
   }
   
-  /* ... (existing CSS code) */
   
   
